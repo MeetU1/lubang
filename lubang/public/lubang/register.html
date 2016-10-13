@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Register Page | Amaze UI Example</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="assets/css/app.css"/>
+
+  
+  
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+/*    #vld-tooltip {
+    position: absolute;
+    z-index: 1000;
+    padding: 5px 10px;
+    background: #F37B1D;
+    min-width: 150px;
+    color: #fff;
+    transition: all 0.15s;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+    display: none;
+    }
+
+    #vld-tooltip:before {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -8px;
+    content: "";
+    border-width: 0 8px 8px;
+    border-color: transparent transparent #F37B1D;
+    border-style: none inset solid;
+    }*/
+
+
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="am-g">
+    <h1><a href="" >路帮</a></h1>
+    
+  </div>
+</div>
+<div class="am-g">
+  <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+    <form action="post" class="am-form" id="form-with-tooltip">
+      <fieldset>
+        <legend>
+             <ul class="am-avg-sm-2 am-thumbnails">
+             <li class="">新用户注册</li>
+             </ul>
+        </legend>
+
+        <div class="am-form-group">
+          <input type="text" id="doc-vld-name-2-0" minlength="11" placeholder="请输入手机号" required data-foolish-msg="格式不正确！"/>
+        </div>
+
+        <div class="am-form-group">
+          <input type="password" id="doc-vld-pwd-1-0" placeholder="6位数字密码" pattern="^\d{6}$" required data-foolish-msg="请输入6位有效数字！"/>
+        </div>
+        <div class="am-form-group">
+          <input type="password" id="doc-vld-pwd-1-0" placeholder="确认密码" pattern="^\d{6}$" required data-foolish-msg="请输入6位有效数字！"/>
+        </div>
+        <div class="">
+         <input id="remember-me" type="checkbox" >
+          同意<a href="" >路帮用户协议</a>
+      </div>
+      <br />
+      <div class="am-cf">
+        <input type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm am-fl">
+        <!-- <input type="submit" name="" value="直接登录 " class="am-btn am-btn-default am-btn-sm am-fr"> -->
+        <div class="am-fr">已有账号<a href="login.html" >直接登录</a></div>
+      </div>
+        <!-- <button class="am-btn am-btn-secondary" type="submit">提交</button> -->
+      </fieldset>
+    </form>
+    
+
+    <div class="header am-g">
+     
+      合作方账号<hr>
+    </div>
+
+    <div class="header am-g">
+      
+      <a href="##" class="am-icon-btn  am-icon-qq am-primary am-margin-right-sm"></a> 
+      <a href="##" class="am-icon-btn  am-icon-weixin am-success am-margin-right-sm"></a>
+      <a href="##" class="am-icon-btn  am-icon-weibo am-danger am-margin-right-sm"></a>
+      <a href="##" class="am-icon-btn  am-icon-paypal  am-margin-right-sm"></a>
+
+      
+
+    </div>
+    <!-- <p>© 2014 AllMobilize, Inc. Licensed under MIT license.</p> -->
+
+  </div>
+</div>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/amazeui.js"></script>
+<script src="assets/js/amazeui.min.js"></script>
+
+</body>
+</html>
