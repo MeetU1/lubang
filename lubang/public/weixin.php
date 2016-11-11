@@ -6,9 +6,9 @@
     }else{
         $obj->checkSignature();
     }
-    
 
 
+1
 
 
 class Weixin{

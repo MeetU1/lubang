@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/hello','HelloController@Hello');
 
 Route::any('/weixin2','WeixinController@weixin');
+Route::any('/wechat','WechatController@serve');
